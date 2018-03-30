@@ -1,0 +1,9 @@
+<h1>
+  List of holidays for 2015
+</h1>
+<ul>  
+  <li *ngFor="let key of keyDates">
+      <a href="/holidayDetails?date={{holidayData.holidays[key][0].date}}" >{{holidayData.holidays[key][0].name}}</a>
+  </li> 
+      
+</ul>
