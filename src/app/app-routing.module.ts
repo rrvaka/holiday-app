@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 
 
 const appRoutes: Routes = [
+  {path: '', component: HolidayComponent},
   {path: 'holiday', component: HolidayComponent},
   {path: 'holidayDetails', component: HolidayDetailsComponent}
 ]; 
